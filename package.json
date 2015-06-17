@@ -27,7 +27,9 @@
   "homepage": "https://github.com/giacomozinetti/GiGi",
   "devDependencies": {
     "browser-sync": "^2.7.12",
+    "coffee-script": "^1.9.3",
     "gulp": "^3.9.0",
-    "gulp-sass": "^2.0.1"
+    "gulp-sass": "^2.0.1",
+    "gulp-scss-lint": "^0.2.0"
   }
 }
