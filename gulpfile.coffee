@@ -17,6 +17,6 @@ gulp.task 'sass', ->
 gulp.task 'lint', ->
   gulp.src(['gigi.scss', './tests/*.scss'])
     .pipe(scsslint({
-      'config': 'lint.yml'
+      'config': '.scss-lint.yml'
     }))
   return
