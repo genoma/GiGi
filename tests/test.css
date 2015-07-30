@@ -1,0 +1,29 @@
+.Table__cell, .NestedTable__cell {
+  background: rgba(51, 119, 255, 0.25);
+  border: 1px dotted currentColor;
+  box-sizing: border-box;
+  padding: 1em; }
+
+.Table {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; }
+  .Table__cell {
+    flex-basis: 33.33333%; }
+    @media (min-width: 980px) {
+      .Table__cell {
+        flex-basis: 16.66667%; } }
+    .Table__cell--main {
+      flex-grow: 1;
+      flex-basis: auto;
+      font-weight: bold;
+      order: -1; }
+
+.NestedTable {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  height: 200px; }
+  .NestedTable__cell {
+    flex-basis: 50%;
+    text-align: center; }
