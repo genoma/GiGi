@@ -32,7 +32,7 @@ $mq-xxl-up: $mq-xxl;
 
 // MIXINS
 
-@mixin Grid($direction: 'horizontal', $reverse: false) {
+@mixin grid($direction: 'horizontal', $reverse: false) {
     @if $grid-flex {
         display: flex;
         flex-wrap: wrap;
@@ -44,7 +44,7 @@ $mq-xxl-up: $mq-xxl;
     }
 }
 
-@mixin Grid__block($size: 'auto', $mq: null) {
+@mixin grid-block($size: 'auto', $mq: null) {
     $base: if(length($size) == 3, nth($size, 3), $grid-base);
     $width: auto;
 
